@@ -78,7 +78,7 @@ I recently developed a utility package that lets developers easily create a full
 
 🧐 **Knowledge of:**<br>
 
-`Design Patterns`, `Microservices`, `CI / CD`, `Unit Testing`, `E2E Testing`, `System Design`, `Object-Oriented Programming`, `Algorithms`, `Software Analysis`, `Database Systems Design`, `Information Security`, `UI / UX`.
+`Design Patterns`, `Microservices`, `CI / CD`, `Unit Testing`, `E2E Testing`, `System Design`, `Object-Oriented Programming`, `Algorithms`, `Software Analysis`, `High Performance Computer Architecture`, `Database Systems Design`, `Network Science`, `Information Security`, `UI / UX`.
 
 🌍 **Deployment platforms:**<br>
 
