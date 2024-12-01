@@ -1,0 +1,4 @@
+{
+  "pre-commit": "pnpm install && pnpm exec lint-staged",
+  "commit-msg": "pnpm exec commitlint -e"
+}

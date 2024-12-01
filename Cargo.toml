@@ -1,0 +1,10 @@
+[workspace]
+members = ["crates/@errorfree/*"]
+resolver = "3"
+
+[workspace.package]
+authors = ["Rueihuan <me@rueihuan.com>"]
+license = "MIT"
+
+[workspace.dependencies]
+cargo-nextest = "0.9.92"

@@ -1,0 +1,45 @@
+{
+  "name": "@/monorepo",
+  "description": "Monorepo of rueihuan's profile",
+  "author": "Rueihuan <me@rueihuan.com> (http://rueihuan.com/)",
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "22.13.9",
+    "cspell": "^8.17.5",
+    "tsx": "^4.19.2",
+    "typescript": "5.8.2"
+  },
+  "engines": {
+    "pnpm": ">=9",
+    "node": ">=22"
+  },
+  "homepage": "https://github.com/rueihuan/rueihuan#readme",
+  "license": "MIT",
+  "optionalDependencies": {
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
+    "@commitlint/cz-commitlint": "^19.5.0",
+    "commitizen": "^4.3.1",
+    "lint-staged": "15.2.10",
+    "simple-git-hooks": "^2.11.1",
+    "syncpack": "13.0.0"
+  },
+  "private": true,
+  "repository": "rueihuan/rueihuan.git",
+  "scripts": {
+    "@": "pnpm -r --filter",
+    "build": "pnpm -r build",
+    "check-license": "pnpm dlx license-checker --summary",
+    "clean-dep": "pnpm -r exec rm -rf node_modules && rm -rf node_modules",
+    "format-staged": "node --no-warnings ./scripts/format-staged.js",
+    "postinstall": "node --no-warnings ./scripts/post-install.js",
+    "preinstall": "node --no-warnings ./scripts/pre-install.js",
+    "prepare": ""
+  },
+  "type": "module"
+}
